@@ -1,0 +1,314 @@
+.nav-main{
+    position: static;
+}
+.section-premium{
+    background-color: rgb(29, 117, 222);
+    padding: 140px 0;
+    height: 31vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-premium h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+.main-premium h2{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+
+.start-btn{
+    color: white;
+    padding: 40px;
+    background-color: rgb(25, 20, 20);
+    padding: 17px 48px;
+    border-radius: 500px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.show-plans-btn{
+    color: white;
+    padding: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 17px 48px;
+    border-radius: 500px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.show-plans-btn:hover{
+    transform: scale(1.03);
+    background-color: #1A69C7;
+}
+
+.btn-premium{
+    margin: 30px 0px;
+}
+
+.main-premium p{
+    color: white;
+}
+
+.big-nav-footer{
+    font-size: 12px;
+    max-width: 610px;
+}
+
+.main-premium{
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: start;
+    width: 1170px;
+}
+
+
+.start-btn:hover{
+    background-color: #0B0909;
+    transform: scale(1.03);
+}
+
+
+  /* BENEFICIOS PREMIUM */
+
+
+.premium-benefits{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 60px 0;
+}
+
+.premium-benefits-container{
+    width: 1170px;
+}
+
+.premium-benefits-container h1{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.premium-benefits{
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+.ul-benif-list-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.benif-list-container li{
+    list-style: none;
+    margin: 40px;
+    width: 270px;
+    text-align: center;
+}
+
+.benif-list-container p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.img-download{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f43009302fbaf6259b4c117c704f");
+    width: 142px;
+    height: 142px;
+    background-size: contain;
+    margin: 0px auto 40px;
+}
+
+.img-ads{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f43098292b95d24a697c20df5137");
+    width: 142px;
+    height: 142px;
+    background-size: contain;
+    margin: 0px auto 40px;
+}
+
+.img-play{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f4306998d3ffd58aad6da6afdf67");
+    width: 142px;
+    height: 142px;
+    background-size: contain;
+    margin: 0px auto 40px;
+}
+
+.img-skip{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f430cd6c528745e510c5be63a012");
+    width: 142px;
+    height: 142px;
+    background-size: contain;
+    margin: 0px auto 40px;
+}
+
+/* .letter-spacing-benefits{
+    letter-spacing: 1px;
+} */
+
+
+
+/* ELEGI TU PLAN */
+
+
+.select-premium-section{
+    background: rgb(239, 239, 239);
+    padding: 75px 15px;
+}
+
+.premium-title{
+    text-align: center;
+    font-size: 22px;
+}
+
+.premium-title p{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.three-options{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.first-option{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 2px 8px 8px,
+    rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+.second-option{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 2px 8px 8px,
+    rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+.third-option{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 2px 8px 8px,
+    rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+.first-mini-title{
+    color: white;
+    background-color: rgb(46, 119, 208);
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: inline;
+}
+
+.second-mini-title{
+    color: rgb(46, 119, 208);
+    background-color: white;
+    border: solid 1px  rgb(46, 119, 208);
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: inline;
+}
+
+.head{
+    margin-bottom: 13px;
+}
+
+.title-first h3{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px 0px 5px;
+}
+
+.last-word{
+    margin-bottom: 20px;
+}
+
+.beneftis-first-list{
+    margin-top: 20px;
+    height: 286px;
+}
+
+.beneftis-first-list li{
+ margin-bottom: 10px;
+ font-size: 16px;
+ font-weight: 500;
+ list-style: none;
+}
+
+.first-option{
+    margin-right: 20px;
+}
+
+.second-option{
+    margin-right: 20px;
+}
+
+.third-option{
+    margin-right: 20px;
+}
+
+.btn-start-benefits{
+    color: white;
+    padding: 40px;
+    background-color: rgb(25, 20, 20);
+    padding: 17px 48px;
+    border-radius: 500px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 8px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-start-benefits:hover{
+    background-color: #0B0909;
+    transform: scale(1.03);
+}
+
+.footer-benefitis{
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+    text-align: left;
+}
+
+.footer-benefitis a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.lowground{
+    align-self: flex-end;
+}
